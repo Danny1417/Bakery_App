@@ -3,8 +3,13 @@ const breads = express.Router();
 const Breads = require("../models/bread");
 
 // Index
-breads.get("/:arrayIndex",(req, res) => {
-      res.send(Breads[req.params.arrayIndex])
+breads.get("/",(req, res) => {
+      res.render("Index",
+            {
+                  breads: Bread,
+                  title: "Index page"
+            }
+      )
 });
 
 module.exports=breads
