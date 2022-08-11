@@ -6,10 +6,15 @@ const Breads = require("../models/bread");
 breads.get("/",(req, res) => {
       res.render("Index",
             {
-                  breads: Bread,
+                  breads: Breads,
                   title: "Index page"
             }
-      )
+      );
 });
 
+// show details
+breads.get("/:arrayIndex", (req, res) => {
+      const index = req.params.arrayIndex
+      const bread = Br
+      
 module.exports=breads
