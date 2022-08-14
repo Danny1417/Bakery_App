@@ -19,4 +19,13 @@ router.get('/', (req, res) => {
     res.render("places/index",{places})
 })
 
+
+router.post("/",(req,res)=>{
+
+  res.send("created a place")
+}) 
+
+
+
+
 module.exports = router
