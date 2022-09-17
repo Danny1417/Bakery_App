@@ -3,11 +3,12 @@ const Def = require("./default")
 function home () {
       return (
         <Def>
+          
             <main>
-                <h1>HOME</h1>
+                <h1>REST-Rant</h1>
 
                 <div>
-                  <img src="images\anton-6_ewhkIfFfo-unsplash (1).jpg" alt="strawberry and chocolate cake" />
+                  <img src="images/anton-6_ewhkIfFfo-unsplash (1).jpg" alt="strawberry and chocolate cake" />
                 </div>
                 <div>
                 Photo by <a href="https://unsplash.com/@uniqueton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anton</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
